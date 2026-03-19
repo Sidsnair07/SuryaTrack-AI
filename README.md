@@ -6,6 +6,22 @@ SuryaTrack AI is a web and mobile application that uses **MediaPipe Pose** to gu
 
 ---
 
+## 📸 Screenshots
+
+### Session Dashboard
+![Session Dashboard](screenshots/session_dashboard.png)
+
+### Pose Guide
+![Pose Guide](screenshots/guide_view.png)
+
+### Settings Panel
+![Settings Panel](screenshots/settings_panel.png)
+
+### Session Log
+![Session Log](screenshots/session_log.png)
+
+---
+
 ## ✨ Features
 
 - **Real-time Pose Detection** — MediaPipe Pose landmark tracking with skeleton overlay
@@ -81,6 +97,7 @@ SuryaTrack-AI/
 │   ├── App.js               # Main application (pose logic, UI, settings)
 │   ├── index.js             # React entry point
 │   └── serviceWorkerRegistration.js
+├── screenshots/             # App screenshots for documentation
 ├── capacitor.config.ts      # Capacitor config for Android
 ├── package.json
 └── README.md
@@ -96,6 +113,25 @@ SuryaTrack-AI/
 4. **Pose evaluation** compares angles against predefined thresholds
 5. **Hold validation** ensures the correct pose is sustained for the required duration
 6. **Auto-advance** moves to the next pose in the Surya Namaskar sequence
+
+---
+
+## 🧘‍♂️ The 12 Poses of Surya Namaskar
+
+| # | Pose | Sanskrit | Breath |
+|---|------|----------|--------|
+| 1 | Pranamasana | Prayer Pose | Exhale |
+| 2 | Hasta Uttanasana | Raised Arms Pose | Inhale |
+| 3 | Hasta Padasana | Forward Bend | Exhale |
+| 4 | Ashwa Sanchalanasana | Equestrian Pose (R) | Inhale |
+| 5 | Dandasana | Plank Pose | Hold |
+| 6 | Ashtanga Namaskara | Eight-Limbed Pose | Exhale |
+| 7 | Bhujangasana | Cobra Pose | Inhale |
+| 8 | Parvatasana | Downward Dog | Exhale |
+| 9 | Ashwa Sanchalanasana | Equestrian Pose (L) | Inhale |
+| 10 | Hasta Padasana | Forward Bend | Exhale |
+| 11 | Hasta Uttanasana | Raised Arms Pose | Inhale |
+| 12 | Pranamasana | Prayer Pose | Exhale |
 
 ---
 
