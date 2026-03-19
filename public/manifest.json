@@ -1,0 +1,33 @@
+{
+    "short_name": "SuryaTrack",
+    "name": "SuryaTrack AI – Surya Namaskar Pose Coach",
+    "description": "Real-time Surya Namaskar pose detection powered by MediaPipe. On-device AI with voice feedback, calorie tracking, and edge performance metrics.",
+    "icons": [
+        {
+            "src": "favicon.ico",
+            "sizes": "64x64 32x32 24x24 16x16",
+            "type": "image/x-icon"
+        },
+        {
+            "src": "logo192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "logo512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "start_url": ".",
+    "display": "standalone",
+    "orientation": "portrait-primary",
+    "theme_color": "#F59E0B",
+    "background_color": "#07090F",
+    "categories": [
+        "health",
+        "fitness",
+        "sports"
+    ],
+    "lang": "en"
+}
